@@ -46,9 +46,10 @@ public interface IUserService : IRequestServiceHandle<UserRequest, UserResponse>
 ```csharp
 //File : Program.cs
 var builder = WebApplication.CreateSlimBuilder(args);
-builder.Services.AddHandleServices(typeof(InternalAssembly).Assembly);
+builder.Services.AddHandleServices(typeof(ServiceAssembly).Assembly);
 
-public class InternalAssembly { }
+//Assembly of service.
+public class ServiceAssembly { }
 ```
 
 - Controller
