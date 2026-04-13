@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ServiceHandle\ServiceHandle\ServiceHandle.csproj" />
+    <ProjectReference Include="..\ServiceHandle\ServiceHandle.csproj" />
   </ItemGroup>
 
 </Project>
