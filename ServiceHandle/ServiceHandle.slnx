@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ServiceHandle.Test/ServiceHandle.Test.csproj" />
+  <Project Path="ServiceHandle/ServiceHandle.csproj" />
+</Solution>
